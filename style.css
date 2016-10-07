@@ -27,11 +27,12 @@ hr {
   margin: 0;
 }
 
-.top-bar svg:first-child {
+.top-bar svg {
   float: left;
 }
 
-.top-bar svg:nth-child(3) {
+.hamburger {
+  height: 30px;
   float: right;
 }
 
@@ -48,11 +49,11 @@ hr {
 }
 
 .welcome-container input {
-  color: #b6b6b6;
+  /*color: #b6b6b6;*/
   font-family: 'lora';
   font-size: 19px;
-  margin: 5px;
-  width: 96%;
+  margin: 5px 0;
+  width: 98%;
 }
 
 .welcome-text {
@@ -74,11 +75,13 @@ hr {
   box-shadow: none;
   border: none;
   color: #9a9a9a;
+  display: inline-block;
   font-family: 'lora';
   font-size: 17px;
-  margin: 4.5px;
-  padding: 10px;
-  width: 98.5%;
+  margin: 4.5px 0;
+  padding: 10px 0;
+  text-decoration: none;
+  width: 100%;
 }
 
 .home-triangles {
@@ -112,7 +115,7 @@ hr {
   color: #a9a9a9;
   font-family: 'open sans';
   font-size: 18px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .bottom-nav a:active {

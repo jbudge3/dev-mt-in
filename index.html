@@ -11,14 +11,26 @@
 
 <body>
 	<!-- View Placeholder -->
-	<div data-ng-view=""></div>
-	<!-- Ends main div -->
+	<div ui-view="header"></div>
+	<div ui-view="body"></div>
+	<div ui-view="footer"></div>
+	<!-- Ends View Placeholder -->
+
+
+	<!-- JavaScript files linked below -->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-	<script src="app.js"></script>
-	<script src="service.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
-	<script src="config.js"></script>
-	<script src="controller.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+	<script src="./app.js"></script>
+	<script src="./config.js"></script>
+	<script src="./services/trackPeopleService.js"></script>
+	<script src="./services/trackFriendsService.js"></script>
+	<script src="./services/newUserService.js"></script>
+	<script src="./components/entry/entryCtrl.js"></script>
+	<script src="./components/friends/friendsCtrl.js"></script>
+	<script src="./components/profile/profileCtrl.js"></script>
+	<script src="./components/search/searchCtrl.js"></script>
+	<script src="./components/settings/settingsCtrl.js"></script>
+
 
 </body>
 </html>

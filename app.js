@@ -1,1 +1,1 @@
-angular.module('devMtnSocial', ['ngRoute']);
+angular.module('devMtnSocial', ['ui.router']);

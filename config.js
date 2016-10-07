@@ -1,14 +1,27 @@
-angular.module('devMtnSocial', ['ngRoute']).config(['$routeProvider', function($routeProvider) {
-  $routeProvider
-    .when('/',
-      {
-        contoller: 'mainControl',
-        templateUrl: 'views/initial.html'
-      })
-    .when('/landing',
-      {
-        controller: 'mainControl',
-        templateUrl: 'views/landing.html'
-      })
-    .otherwise({ redirectTo: '/'});
-}]);
+angular.module('devMtnSocial')
+  .config(function($stateProvider, $urlRouterProvider) {
+
+  $stateProvider
+    .state('home', {
+      url: '/',
+      views: {
+        header: {
+          templateUrl: '/components/headers/header1.html'
+        },
+        body: {
+          templateUrl: '/components/entry/entry.html',
+          controller: 'entryCtrl'
+        },
+        footer: {}
+      }
+    })
+
+    .state('profile', {
+      url: '/profile',
+      templateUrl: '/components/profile/profile.html',
+      controller: 'profileCtrl'
+    })
+
+  $urlRouterProvider
+    .otherwise('/');
+});
