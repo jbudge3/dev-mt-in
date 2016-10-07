@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1150px;
+  margin: 0 auto;
+  min-width: 900px;
+}
+
+hr {
+  margin: 0 5%;
+}
+
+.top-bar {
+  text-align: center;
+  margin: 15px;
+  padding: 1% 5%;
+}
+
+.dev-mountain {
+  color: #272727;
+  font-family: 'lora';
+  font-size: 21px;
+  display: inline-block;
+  margin: 0;
+}
+
+.top-bar svg:first-child {
+  float: left;
+}
+
+.top-bar svg:nth-child(3) {
+  float: right;
+}
+
+.welcome-container {
+  display: inline-block;
+  width: 30%;
+  margin: 50px 0 250px 0;
+  padding: 1% 5%;
+  text-align: center;
+}
+
+.initial-info-input {
+  width: 100%;
+}
+
+.welcome-container input {
+  color: #b6b6b6;
+  font-family: 'lora';
+  font-size: 19px;
+  margin: 5px;
+  width: 96%;
+}
+
+.welcome-text {
+  color: #232323;
+  font-family: 'lora';
+  font-size: 14px;
+}
+
+.welcome-text span {
+  color: #00ffe9;
+}
+
+.bio-input {
+  height: 10em;
+}
+
+.save-changes {
+  background-color: #74fdf2;
+  box-shadow: none;
+  border: none;
+  color: #9a9a9a;
+  font-family: 'lora';
+  font-size: 17px;
+  margin: 4.5px;
+  padding: 10px;
+  width: 98.5%;
+}
+
+.home-triangles {
+  display: inline-block;
+  float: right;
+  height: 650px;
+  padding-right: 10%;
+  padding-top: 50px;
+}
+
+.bottom-nav {
+  padding: 1% 10% 3% 10%;
+  text-align: center;
+}
+
+.bottom-nav a:link {
+  color: #a9a9a9;
+  font-family: 'open sans';
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.bottom-nav a:visited {
+  color: #a9a9a9;
+  font-family: 'open sans';
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.bottom-nav a:hover {
+  color: #a9a9a9;
+  font-family: 'open sans';
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.bottom-nav a:active {
+  color: #a9a9a9;
+  font-family: 'open sans';
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.view-friends-link {
+  float: left;
+}
+
+.find-friends-link {
+  float: right;
+}
